@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigitalTrainer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deda94715bb4272b0cdc3f2c4d34da98a1e7f9c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bcd4a70e38bcaf2f5c3eeb2872df3a862980d1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigitalTrainer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigitalTrainer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

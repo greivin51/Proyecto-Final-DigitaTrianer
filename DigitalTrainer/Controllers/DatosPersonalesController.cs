@@ -38,10 +38,10 @@ namespace DigitalTrainer.Controllers
         {
             try
             {
-                if (!ModelState.IsValid)
+                if (ModelState.IsValid)
                 {
-                    service.agregarDatosPersonales(datos);
-                    return RedirectToAction("Index");
+                    this.service.agregarDatosPersonales(datos);
+                    return RedirectToAction(nameof(Index));
                 }
                
             }
@@ -55,22 +55,28 @@ namespace DigitalTrainer.Controllers
         // GET: DatosPersonalesController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+          var datosExistentes = service.buscarDatosPersonales(id);
+            return View(datosExistentes);
         }
 
         // POST: DatosPersonalesController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(DatosPersonales datos)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if(ModelState.IsValid)
+                {
+                    service.actualizarDatosPersonales(datos);
+                    return RedirectToAction("Index");
+                }
             }
             catch
             {
-                return View();
+               
             }
+            return View();
         }
 
         // GET: DatosPersonalesController/Delete/5

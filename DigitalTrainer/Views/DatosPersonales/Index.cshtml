@@ -2,28 +2,39 @@
 
 @{
     ViewData["Title"] = "Index";
+    var ejemplo = Model.FirstOrDefault() ?? new DigitalTrainer.Models.DatosPersonales();
 }
 
 <h1>Configuracion de Datos</h1>
 
-<p>
-    <a asp-action="Create">Agregar Datos</a>
-</p>
+
 <table class="table">
     <thead>
         <tr>
+            <th>@Html.DisplayNameFor(m => ejemplo.Nombre)</th>
+            <th>@Html.DisplayNameFor(m => ejemplo.Telefono)</th>
+            <th>@Html.DisplayNameFor(m => ejemplo.CorreoElectronico)</th>
+            <th>@Html.DisplayNameFor(m => ejemplo.FechaNacimiento)</th>
+            <th>@Html.DisplayNameFor(m => ejemplo.Genero)</th>
+            <th>@Html.DisplayNameFor(m => ejemplo.Peso)</th>
+            <th>@Html.DisplayNameFor(m => ejemplo.Altura)</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
+    <tr>
+        <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+        <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
+        <td>@Html.DisplayFor(modelItem => item.CorreoElectronico)</td>
+        <td>@Html.DisplayFor(modelItem => item.FechaNacimiento)</td>
+        <td>@Html.DisplayFor(modelItem => item.Genero)</td>
+        <td>@Html.DisplayFor(modelItem => item.Peso)</td>
+        <td>@Html.DisplayFor(modelItem => item.Altura)</td>
+        <td>
+            @Html.ActionLink("Configurar datos", "Edit", new { id = item.IdDatosPersonales }) 
+        </td>
+    </tr>
 }
     </tbody>
 </table>
