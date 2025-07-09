@@ -2,39 +2,56 @@
 
 @{
     ViewData["Title"] = "Index";
-    var ejemplo = Model.FirstOrDefault() ?? new DigitalTrainer.Models.DatosPersonales();
+    var usuarios = Model.ToList();
 }
 
-<h1>Configuracion de Datos</h1>
+<h1 class="text-center my-4">Configuración de Datos</h1>
 
+@if (usuarios.Any())
+{
+    <div class="container">
+        <ul class="nav nav-tabs" id="userTab" role="tablist">
+            @for (int i = 0; i < usuarios.Count; i++)
+            {
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link @(i == 0 ? "active" : "")" id="tab-@i" data-bs-toggle="tab" data-bs-target="#user-@i" type="button" role="tab" aria-controls="user-@i" aria-selected="@(i == 0 ? "true" : "false")">
+                        @usuarios[i].Nombre
+                    </button>
+                </li>
+            }
+        </ul>
+        <div class="tab-content p-4 border-bottom border-start border-end bg-light" id="userTabContent">
+            @for (int i = 0; i < usuarios.Count; i++)
+            {
+                var item = usuarios[i];
+                <div class="tab-pane fade @(i == 0 ? "show active" : "")" id="user-@i" role="tabpanel" aria-labelledby="tab-@i">
+                    <dl class="row">
+                        <dt class="col-sm-4">Nombre</dt>
+                        <dd class="col-sm-8">@item.Nombre</dd>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>@Html.DisplayNameFor(m => ejemplo.Nombre)</th>
-            <th>@Html.DisplayNameFor(m => ejemplo.Telefono)</th>
-            <th>@Html.DisplayNameFor(m => ejemplo.CorreoElectronico)</th>
-            <th>@Html.DisplayNameFor(m => ejemplo.FechaNacimiento)</th>
-            <th>@Html.DisplayNameFor(m => ejemplo.Genero)</th>
-            <th>@Html.DisplayNameFor(m => ejemplo.Peso)</th>
-            <th>@Html.DisplayNameFor(m => ejemplo.Altura)</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-    <tr>
-        <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
-        <td>@Html.DisplayFor(modelItem => item.Telefono)</td>
-        <td>@Html.DisplayFor(modelItem => item.CorreoElectronico)</td>
-        <td>@Html.DisplayFor(modelItem => item.FechaNacimiento)</td>
-        <td>@Html.DisplayFor(modelItem => item.Genero)</td>
-        <td>@Html.DisplayFor(modelItem => item.Peso)</td>
-        <td>@Html.DisplayFor(modelItem => item.Altura)</td>
-        <td>
-            @Html.ActionLink("Configurar datos", "Edit", new { id = item.IdDatosPersonales }) 
-        </td>
-    </tr>
+                        <dt class="col-sm-4">Teléfono</dt>
+                        <dd class="col-sm-8">@item.Telefono</dd>
+
+                        <dt class="col-sm-4">Correo Electrónico</dt>
+                        <dd class="col-sm-8">@item.CorreoElectronico</dd>
+
+                        <dt class="col-sm-4">Fecha Nacimiento</dt>
+                        <dd class="col-sm-8">@item.FechaNacimiento.ToString("dd/MM/yyyy")</dd>
+
+                        <dt class="col-sm-4">Género</dt>
+                        <dd class="col-sm-8">@item.Genero.ToString()</dd>
+
+                        <dt class="col-sm-4">Peso</dt>
+                        <dd class="col-sm-8">@($"{item.Peso} KG")</dd>
+
+                        <dt class="col-sm-4">Altura</dt>
+                        <dd class="col-sm-8">@item.Altura</dd>
+                    </dl>
+                    <div class="text-end">
+                        @Html.ActionLink("Configurar Datos", "Edit", new { id = item.IdDatosPersonales }, new { @class = "btn btn-outline-primary btn-sm" })
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
 }
-    </tbody>
-</table>

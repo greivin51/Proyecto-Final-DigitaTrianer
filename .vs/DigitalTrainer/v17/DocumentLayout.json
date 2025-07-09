@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\datospersonales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\datospersonales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\datospersonales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\controllers\\datospersonalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\controllers\\datospersonalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
-              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
-              "RelativeToolTip": "DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T04:29:25.769Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -48,6 +43,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\DatosPersonales\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\DatosPersonales\\Index.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\DatosPersonales\\Index.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\DatosPersonales\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAewCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T04:56:59.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatosPersonalesController.cs",
+              "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
+              "ToolTip": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
+              "RelativeToolTip": "DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T04:51:51.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwCAAAACMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T04:29:25.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Configuration.cs",
               "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "DigitalTrainer\\Migrations\\Configuration.cs",
@@ -55,12 +89,11 @@
               "RelativeToolTip": "DigitalTrainer\\Migrations\\Configuration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T02:37:55.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T02:37:55.139Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\appsettings.json",
               "RelativeDocumentMoniker": "DigitalTrainer\\appsettings.json",
