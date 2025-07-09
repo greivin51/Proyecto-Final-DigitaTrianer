@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kv2fJBLuGsY=",
+  "dgSpecHash": "whv6i81S6/o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\DigitalTrainer.csproj",
+  "projectFilePath": "C:\\Users\\greiv\\Desktop\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\DigitalTrainer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\greiv\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\greiv\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

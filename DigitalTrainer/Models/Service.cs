@@ -23,5 +23,15 @@ namespace DigitalTrainer.Models
             return this.rutinas.ToArray();
         }
 
+
+        public void agregarDatosPersonales(DatosPersonales datos)
+        {
+            this.datosPersonales.Add(datos);
+            SaveChanges();
+        }
+        public Array mostrarDatosPersonales()
+        {
+            return this.datosPersonales.ToArray();
+        }
     }
 }

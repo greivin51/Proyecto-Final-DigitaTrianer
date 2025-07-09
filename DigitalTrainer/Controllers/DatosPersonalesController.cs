@@ -6,10 +6,17 @@ namespace DigitalTrainer.Controllers
 {
     public class DatosPersonalesController : Controller
     {
+        private Service service;
+        public DatosPersonalesController()
+        {
+            this.service = new Service();
+        }
         // GET: DatosPersonalesController
         public ActionResult Index()
         {
-            return View();
+            var datosPersonales = service.mostrarDatosPersonales();
+            return View(datosPersonales);
+            
         }
 
         // GET: DatosPersonalesController/Details/5
@@ -27,16 +34,22 @@ namespace DigitalTrainer.Controllers
         // POST: DatosPersonalesController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(DatosPersonales datos)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (!ModelState.IsValid)
+                {
+                    service.agregarDatosPersonales(datos);
+                    return RedirectToAction("Index");
+                }
+               
             }
             catch
             {
-                return View();
+               
             }
+            return View();
         }
 
         // GET: DatosPersonalesController/Edit/5

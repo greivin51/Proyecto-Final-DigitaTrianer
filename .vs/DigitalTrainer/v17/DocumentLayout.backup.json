@@ -1,54 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\",
+  "WorkspaceRootPath": "C:\\Users\\greiv\\Desktop\\git hub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\controllers\\datospersonalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\controllers\\datospersonalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\controllers\\datospersonalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\controllers\\mirutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\controllers\\mirutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\views\\datospersonales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\datospersonales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\models\\datospersonales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\datospersonales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\views\\rutina\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\rutina\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\views\\datospersonales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\datospersonales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\controllers\\rutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\controllers\\rutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\controllers\\rutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\models\\datospersonales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\datospersonales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\models\\mirutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\models\\mirutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\mirutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\digitaltrainer\\digitaltrainer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\views\\rutina\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\rutina\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\desktop\\git hub\\digitaltrainer\\views\\datospersonales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\datospersonales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,168 +85,209 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "OverriddenGroupName": "DigitalTrainer\\Views\\Shared",
-              "WhenOpened": "2025-07-08T02:49:41.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Migrations\\Configuration.cs",
-              "RelativeDocumentMoniker": "DigitalTrainer\\Migrations\\Configuration.cs",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Migrations\\Configuration.cs",
-              "RelativeToolTip": "DigitalTrainer\\Migrations\\Configuration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T02:37:55.139Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\appsettings.json",
-              "RelativeDocumentMoniker": "DigitalTrainer\\appsettings.json",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\appsettings.json",
-              "RelativeToolTip": "DigitalTrainer\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-08T02:11:33.41Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\Rutina\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Rutina\\Index.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\Rutina\\Index.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\Rutina\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T00:54:29.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\DatosPersonales\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\DatosPersonales\\Index.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\DatosPersonales\\Index.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\DatosPersonales\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T23:37:23.407Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\DatosPersonales\\Edit.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T00:29:09.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\Rutina\\Create.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Rutina\\Create.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\Rutina\\Create.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\Rutina\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-09T00:20:36.244Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "DigitalTrainer\\Models\\Service.cs",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Models\\Service.cs",
-              "RelativeToolTip": "DigitalTrainer\\Models\\Service.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBYAAAAqAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\DatosPersonales\\Create.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\DatosPersonales\\Create.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\DatosPersonales\\Create.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\DatosPersonales\\Create.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T23:37:16.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "OverriddenGroupName": "DigitalTrainer\\Views\\Shared",
+              "WhenOpened": "2025-07-08T02:49:41.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "DigitalTrainer\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "DigitalTrainer\\Models",
-              "WhenOpened": "2025-07-08T02:06:10.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T02:37:55.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\appsettings.json",
+              "RelativeDocumentMoniker": "DigitalTrainer\\appsettings.json",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\appsettings.json",
+              "RelativeToolTip": "DigitalTrainer\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-08T02:11:33.41Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Models\\Service.cs",
+              "RelativeToolTip": "DigitalTrainer\\Models\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "DigitalTrainer\\Models",
+              "WhenOpened": "2025-07-08T02:06:10.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "DatosPersonalesController.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
               "RelativeDocumentMoniker": "DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
               "RelativeToolTip": "DigitalTrainer\\Controllers\\DatosPersonalesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowDcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-08T01:01:52.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MiRutinaController.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Controllers\\MiRutinaController.cs",
-              "RelativeDocumentMoniker": "DigitalTrainer\\Controllers\\MiRutinaController.cs",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Controllers\\MiRutinaController.cs",
-              "RelativeToolTip": "DigitalTrainer\\Controllers\\MiRutinaController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAswEMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "RutinaController.cs",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Controllers\\RutinaController.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Controllers\\RutinaController.cs",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Controllers\\RutinaController.cs",
+              "RelativeToolTip": "DigitalTrainer\\Controllers\\RutinaController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "DigitalTrainer\\Controllers",
-              "WhenOpened": "2025-07-08T01:01:09.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T01:00:47.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatosPersonales.cs",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Models\\DatosPersonales.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Models\\DatosPersonales.cs",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Models\\DatosPersonales.cs",
+              "RelativeToolTip": "DigitalTrainer\\Models\\DatosPersonales.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "DigitalTrainer\\Models",
+              "WhenOpened": "2025-07-08T00:35:49.507Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "RutinaController.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Controllers\\RutinaController.cs",
-              "RelativeDocumentMoniker": "DigitalTrainer\\Controllers\\RutinaController.cs",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Controllers\\RutinaController.cs",
-              "RelativeToolTip": "DigitalTrainer\\Controllers\\RutinaController.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowAIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "DigitalTrainer\\Controllers",
-              "WhenOpened": "2025-07-08T01:00:47.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DatosPersonales.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Models\\DatosPersonales.cs",
-              "RelativeDocumentMoniker": "DigitalTrainer\\Models\\DatosPersonales.cs",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Models\\DatosPersonales.cs",
-              "RelativeToolTip": "DigitalTrainer\\Models\\DatosPersonales.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "DigitalTrainer\\Models",
-              "WhenOpened": "2025-07-08T00:35:49.507Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "MiRutina.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Models\\MiRutina.cs",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Models\\MiRutina.cs",
               "RelativeDocumentMoniker": "DigitalTrainer\\Models\\MiRutina.cs",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Models\\MiRutina.cs",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Models\\MiRutina.cs",
               "RelativeToolTip": "DigitalTrainer\\Models\\MiRutina.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAQwB8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "DigitalTrainer\\Models",
-              "WhenOpened": "2025-07-08T00:35:15.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T00:35:15.191Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Rutina.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Models\\Rutina.cs",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Models\\Rutina.cs",
               "RelativeDocumentMoniker": "DigitalTrainer\\Models\\Rutina.cs",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Models\\Rutina.cs",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Models\\Rutina.cs",
               "RelativeToolTip": "DigitalTrainer\\Models\\Rutina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "OverriddenGroupName": "DigitalTrainer\\Models",
-              "WhenOpened": "2025-07-08T00:34:43.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T00:34:43.24Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "DigitalTrainer\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "OverriddenGroupName": "DigitalTrainer\\Views\\Home",
-              "WhenOpened": "2025-07-08T00:16:08.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T00:16:08.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DigitalTrainer\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\greiv\\Desktop\\DigitalTrainer\\DigitalTrainer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\greiv\\Desktop\\git hub\\DigitalTrainer\\Controllers\\HomeController.cs",
               "RelativeToolTip": "DigitalTrainer\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T00:07:52.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-08T00:07:52.697Z"
             }
           ]
         }
