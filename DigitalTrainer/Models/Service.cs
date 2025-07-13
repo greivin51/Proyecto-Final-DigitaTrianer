@@ -33,9 +33,9 @@ namespace DigitalTrainer.Models
         {
             return this.datosPersonales.ToArray();
         }
-        public void eliminarDatosPersonales(int id)
+        public void eliminarDatosPersonales(DatosPersonales datos)
         {
-            var datos = this.datosPersonales.Find(id);
+            
             if (datos != null)
             {
                 this.datosPersonales.Remove(datos);

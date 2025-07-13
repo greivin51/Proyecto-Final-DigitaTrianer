@@ -45,13 +45,14 @@
                         <dd class="col-sm-8">@($"{item.Peso} KG")</dd>
 
                         <dt class="col-sm-4">Altura</dt>
-                        <dd class="col-sm-8">@item.Altura</dd>
+                        <dd class="col-sm-8">@($"{item.Altura} CM")</dd>
                     </dl>
                     <div class="text-end">
                         @Html.ActionLink("Configurar Datos", "Edit", new { id = item.IdDatosPersonales }, new { @class = "btn btn-outline-primary btn-sm" })
+                        @Html.ActionLink("Delete", "Delete", new { id = item.IdDatosPersonales }, new { @class = "btn btn-outline-danger btn-sm" })
                     </div>
                 </div>
-            }
+        }
         </div>
     </div>
 }

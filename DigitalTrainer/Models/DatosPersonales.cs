@@ -18,6 +18,7 @@ namespace DigitalTrainer.Models
         private Genero genero;
         private double peso;
         private double altura;
+        private string password;
         [Key]
         public int IdDatosPersonales 
         { 
@@ -31,9 +32,11 @@ namespace DigitalTrainer.Models
         public Genero Genero { get => genero; set => genero = value; }
         public double Peso { get => peso; set => peso = value; }
         public double Altura { get => altura; set => altura = value; }
+        public string Password { get; set; }
 
-        public DatosPersonales(int iddatospersonales, string nombre, int telefono, string correoElectronico, DateTime fechaNacimiento, Genero genero, double peso, double altura)
+        public DatosPersonales(string password, int iddatospersonales, string nombre, int telefono, string correoElectronico, DateTime fechaNacimiento, Genero genero, double peso, double altura)
         {
+            this.password = password;
             this.iddatospersonales = iddatospersonales;
             this.nombre = nombre;
             this.telefono = telefono;
@@ -45,6 +48,7 @@ namespace DigitalTrainer.Models
         }
         public DatosPersonales()
         {
+            this.password = "";
             this.iddatospersonales = 0;
             this.nombre = "";
             this.telefono = 0;
@@ -54,5 +58,6 @@ namespace DigitalTrainer.Models
             this.peso = 0;
             this.altura = 0;
         }
+
     }
 }

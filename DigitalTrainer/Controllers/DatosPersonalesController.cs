@@ -1,103 +1,61 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using DigitalTrainer.Models;
 
 namespace DigitalTrainer.Controllers
 {
     public class DatosPersonalesController : Controller
     {
-        private Service service;
+        private  Service service;
+
         public DatosPersonalesController()
         {
             this.service = new Service();
         }
-        // GET: DatosPersonalesController
-        public ActionResult Index()
+
+        // GET
+        public IActionResult Index()
         {
-            var datosPersonales = service.mostrarDatosPersonales();
-            return View(datosPersonales);
-            
+            return View(service.mostrarDatosPersonales());
         }
 
-        // GET: DatosPersonalesController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+        // GET Create
+        public IActionResult Create() => View();
 
-        // GET: DatosPersonalesController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        // POST: DatosPersonalesController/Create
+        // POST Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(DatosPersonales datos)
+        public IActionResult Create(DatosPersonales datos)
         {
-            try
-            {
-                if (ModelState.IsValid)
-                {
-                    this.service.agregarDatosPersonales(datos);
-                    return RedirectToAction(nameof(Index));
-                }
-               
-            }
-            catch
-            {
-               
-            }
-            return View();
+            if (ModelState.IsValid) return View(datos);
+
+           service.agregarDatosPersonales(datos);
+            return RedirectToAction(nameof(Index));
         }
 
-        // GET: DatosPersonalesController/Edit/5
-        public ActionResult Edit(int id)
+        // GET Edit
+        public IActionResult Edit(int id)
         {
-          var datosExistentes = service.buscarDatosPersonales(id);
-            return View(datosExistentes);
+            var datosAnteriores = service.buscarDatosPersonales(id);
+            return View(datosAnteriores);
         }
 
-        // POST: DatosPersonalesController/Edit/5
+        // POST Edit
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(DatosPersonales datos)
+        public IActionResult Edit(DatosPersonales datos)
         {
-            try
-            {
-                if(ModelState.IsValid)
-                {
-                    service.actualizarDatosPersonales(datos);
-                    return RedirectToAction("Index");
-                }
-            }
-            catch
-            {
-               
-            }
-            return View();
+            if (ModelState.IsValid) return View(datos);
+
+            service.actualizarDatosPersonales(datos);
+            return RedirectToAction(nameof(Index));
         }
 
-        // GET: DatosPersonalesController/Delete/5
-        public ActionResult Delete(int id)
+        // GET Delete
+        public IActionResult Delete(int id)
         {
-            return View();
-        }
-
-        // POST: DatosPersonalesController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var datos = service.buscarDatosPersonales(id);
+            if (datos != null) service.eliminarDatosPersonales(datos);
+            return RedirectToAction(nameof(Index));
         }
     }
 }
