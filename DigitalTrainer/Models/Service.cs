@@ -9,10 +9,13 @@ namespace DigitalTrainer.Models
 
         public DbSet<DatosPersonales> datosPersonales { get; set; }
 
+        public DbSet<MiRutina> miRutina { get; set; }
 
 
-        public  Service() : base("DigitalTrainer")
+        public Service() : base("DigitalTrainer")
         { }
+
+        #region Metodos de Rutina
         public void agregarRutinas(Rutina rutina)
         {
             this.rutinas.Add(rutina);
@@ -23,6 +26,12 @@ namespace DigitalTrainer.Models
             return this.rutinas.ToArray();
         }
 
+
+
+
+        #endregion
+
+        #region Metodos de Datos Personales
 
         public void agregarDatosPersonales(DatosPersonales datos)
         {
@@ -69,5 +78,52 @@ namespace DigitalTrainer.Models
             else
                 throw new Exception("Datos personales no encontrados");
         }
+        #endregion
+
+        #region Metodos de Mi Rutina
+        public void agregarMiRutina(MiRutina miRutina)
+        {
+            this.miRutina.Add(miRutina);
+            SaveChanges();
+        }
+        public Array mostrarMiRutina()
+        {
+            return this.miRutina.ToArray();
+        }
+        public MiRutina buscarMiRutina(int id)
+        {
+            var miRutinaBuscado = this.miRutina.FirstOrDefault(x => x.Id == id);
+            if (miRutinaBuscado != null)
+                return miRutinaBuscado;
+            else
+                throw new Exception("No existe una rutina con ese id");
+        }
+        public void eliminarMiRutina(MiRutina miRutina)
+        {
+            this.miRutina.Remove(miRutina);
+            SaveChanges();
+        }
+
+
+
+        public void actualizarMiRutina(MiRutina miRutina)
+        {
+            var miRutinaAnterior = this.miRutina.FirstOrDefault(x => x.Id == miRutina.Id);
+            if (miRutinaAnterior != null)
+            {
+                miRutinaAnterior.Musculo = miRutina.Musculo;
+                miRutinaAnterior.Ejercicio = miRutina.Ejercicio;
+                miRutinaAnterior.Series = miRutina.Series;
+                miRutinaAnterior.Dia = miRutina.Dia;
+
+
+                SaveChanges();
+
+            }
+            else throw new Exception("Ese fabricante que intenta actualizar, no se encuentra registrado");
+        }
+        
+
+        #endregion
     }
 }

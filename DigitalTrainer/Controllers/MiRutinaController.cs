@@ -6,10 +6,17 @@ namespace DigitalTrainer.Controllers
 {
     public class MiRutinaController : Controller
     {
+        private Service service;
+
+        public MiRutinaController()
+        {
+            this.service = new Service();
+        }
         // GET: MiRutinaController
         public ActionResult Index()
         {
-            return View();
+            var miRutina = service.mostrarMiRutina();
+            return View(miRutina);
         }
 
         // GET: MiRutinaController/Details/5
@@ -27,58 +34,64 @@ namespace DigitalTrainer.Controllers
         // POST: MiRutinaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(MiRutina miRutina)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid)
+                {
+                    this.service.agregarMiRutina(miRutina);
+                    return RedirectToAction("Index");
+                }
             }
             catch
-            {
-                return View();
-            }
+            { }
+            return View();
         }
 
         // GET: MiRutinaController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var miRutinaAnterior = service.buscarMiRutina(id);
+            return View(miRutinaAnterior);
         }
 
         // POST: MiRutinaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(MiRutina miRutina)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid)
+                {
+                    service.actualizarMiRutina(miRutina);
+                    return RedirectToAction("Index");
+                }
             }
             catch
-            {
-                return View();
-            }
+            { }
+            return View();
+
         }
 
         // GET: MiRutinaController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
-        }
-
-        // POST: MiRutinaController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var miRutinaEliminado = service.buscarMiRutina(id);
+                service.eliminarMiRutina(miRutinaEliminado);
+                return RedirectToAction("Index");
             }
-            catch
+            catch (Exception)
             {
-                return View();
+
+                return RedirectToAction("Index");
             }
+
+
         }
+
     }
 }

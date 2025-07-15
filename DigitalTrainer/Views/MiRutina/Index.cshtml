@@ -1,27 +1,56 @@
 ﻿@model IEnumerable<DigitalTrainer.Models.MiRutina>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Mi Rutina";
 }
 
-<h1>Index</h1>
+<h1>Mi rutina</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Agregar nueva rutina</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Musculo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ejercicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Series)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dia)
+            </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.DisplayFor(modelItem => item.Musculo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ejercicio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Series)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dia)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Id})
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id})
             </td>
         </tr>
 }
