@@ -1,0 +1,29 @@
+/* Fuerza el color negro en las pestañas de autenticación */
+#authTab .nav-link,
+#authTab .nav-link.active {
+    color: #000 !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+/* Botones de navegación estilo Zacson */
+.nav-btn {
+    background: #ff1a1a !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border-radius: 4px !important;
+    padding: 10px 24px !important;
+    margin-right: 8px;
+    border: none !important;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background 0.2s;
+}
+.nav-btn:hover, .nav-btn:focus {
+    background: #d90000 !important;
+    color: #fff !important;
+    text-decoration: none;
+}

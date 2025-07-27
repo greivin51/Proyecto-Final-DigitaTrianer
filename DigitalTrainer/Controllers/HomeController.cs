@@ -1,6 +1,16 @@
 using System.Diagnostics;
 using DigitalTrainer.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+namespace RazorPagesApp.Pages
+{
+    public class HomeModel : PageModel
+    {
+        public void OnGet()
+        {
+        }
+    }
+}
 
 namespace DigitalTrainer.Controllers
 {

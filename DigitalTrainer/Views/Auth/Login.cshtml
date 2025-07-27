@@ -1,72 +1,77 @@
 ﻿@model DigitalTrainer.Models.DatosPersonales
 @{
-    Layout = "~/Views/Shared/_LayoutSimple.cshtml";
+    Layout = "~/Views/Shared/_LayoutZacson.cshtml";
     ViewData["Title"] = "Login / Registro";
 }
 
-<div class="container mt-5">
-    <ul class="nav nav-tabs" id="authTab" role="tablist">
-        <li class="nav-item">
-            <a class="nav-link active" id="login-tab" data-bs-toggle="tab" href="#login" role="tab">Iniciar Sesión</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" id="register-tab" data-bs-toggle="tab" href="#register" role="tab">Registrarse</a>
-        </li>
-    </ul>
-    <div class="tab-content p-4 border border-top-0 bg-light" id="authTabContent">
-        <div class="tab-pane fade show active" id="login" role="tabpanel">
-            <form asp-action="Login" method="post">
-                <div class="mb-3">
-                    <label for="correo" class="form-label">Correo Electrónico</label>
-                    <input type="email" class="form-control" name="correoElectronico" required />
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Login | DigitalTrainer</title>
+    <link rel="stylesheet" href="~/zacson/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/zacson/css/style.css" />
+    <link rel="stylesheet" href="~/zacson/css/responsive.css" />
+</head>
+<body>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center mb-4">
+                        <h2>Bienvenido a DigitalTrainer</h2>
+                        <p>Inicia sesión o regístrate para continuar</p>
+                    </div>
+
+                    <ul class="nav nav-tabs mb-4" id="authTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="login-tab" data-bs-toggle="tab" href="#login" role="tab" style="color:black">Iniciar Sesión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="register-tab" data-bs-toggle="tab" href="#register" role="tab" style="color: black">Registrarse</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="authTabContent">
+                        <div class="tab-pane fade show active" id="login" role="tabpanel">
+                            <form asp-action="Login" method="post" class="contact-form">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="correoElectronico" placeholder="Correo electrónico" required />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" name="password" placeholder="Contraseña" required />
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+                                @if (ViewBag.Error != null)
+                                {
+                                    <div class="text-danger mt-2">@ViewBag.Error</div>
+                                }
+                            </form>
+                        </div>
+
+                        <div class="tab-pane fade" id="register" role="tabpanel">
+                            <form asp-action="Register" method="post" class="contact-form">
+                                <input asp-for="Nombre" class="form-control mb-2" placeholder="Nombre" required />
+                                <input asp-for="CorreoElectronico" class="form-control mb-2" placeholder="Correo electrónico" required />
+                                <input asp-for="Telefono" class="form-control mb-2" placeholder="Teléfono" required />
+                                <input asp-for="FechaNacimiento" class="form-control mb-2" type="date" required />
+                                <select asp-for="Genero" class="form-control mb-2" asp-items="Html.GetEnumSelectList<DigitalTrainer.Models.Genero>()"></select>
+                                <input asp-for="Peso" class="form-control mb-2" placeholder="Peso" required />
+                                <input asp-for="Altura" class="form-control mb-2" placeholder="Altura" required />
+                                <input type="password" class="form-control mb-2" name="Password" placeholder="Contraseña" required />
+                                <button type="submit" class="btn btn-success w-100">Registrarse</button>
+                            </form>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="mb-3">
-                    <label for="password" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" name="password" required />
-                </div>
-                <button type="submit" class="btn btn-primary">Ingresar</button>
-                @if (ViewBag.Error != null)
-                {
-                    <div class="text-danger mt-2">@ViewBag.Error</div>
-                }
-            </form>
+            </div>
         </div>
-        <div class="tab-pane fade" id="register" role="tabpanel">
-            <form asp-action="Register" method="post">
-                <div class="mb-3">
-                    <label asp-for="Nombre" class="form-label"></label>
-                    <input asp-for="Nombre" class="form-control" required />
-                </div>
-                <div class="mb-3">
-                    <label asp-for="CorreoElectronico" class="form-label"></label>
-                    <input asp-for="CorreoElectronico" class="form-control" required />
-                </div>
-                <div class="mb-3">
-                    <label asp-for="Telefono" class="form-label"></label>
-                    <input asp-for="Telefono" class="form-control" required />
-                </div>
-                <div class="mb-3">
-                    <label asp-for="FechaNacimiento" class="form-label"></label>
-                    <input asp-for="FechaNacimiento" class="form-control" type="date" required />
-                </div>
-                <div class="mb-3">
-                    <label asp-for="Genero" class="form-label"></label>
-                    <select asp-for="Genero" class="form-control" asp-items="Html.GetEnumSelectList<DigitalTrainer.Models.Genero>()"></select>
-                </div>
-                <div class="mb-3">
-                    <label asp-for="Peso" class="form-label"></label>
-                    <input asp-for="Peso" class="form-control" required />
-                </div>
-                <div class="mb-3">
-                    <label asp-for="Altura" class="form-label"></label>
-                    <input asp-for="Altura" class="form-control" required />
-                </div>
-                <div class="mb-3">
-                    <label for="Password" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" name="Password" required />
-                </div>
-                <button type="submit" class="btn btn-success">Registrarse</button>
-            </form>
-        </div>
-    </div>
-</div>
+    </section>
+
+    <script src="~/zacson/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/zacson/js/main.js"></script>
+</body>
+</html>
