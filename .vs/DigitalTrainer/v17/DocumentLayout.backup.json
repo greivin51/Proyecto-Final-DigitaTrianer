@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\shared\\_layoutzacson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\shared\\_layoutzacson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_LayoutZacson.cshtml",
+              "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
+              "ToolTip": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-27T19:37:01.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
@@ -62,12 +79,11 @@
               "RelativeToolTip": "DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-27T19:16:31.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T19:16:31.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Rutina.cs",
               "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Models\\Rutina.cs",
               "RelativeDocumentMoniker": "DigitalTrainer\\Models\\Rutina.cs",
@@ -75,8 +91,7 @@
               "RelativeToolTip": "DigitalTrainer\\Models\\Rutina.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T19:10:41.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T19:10:41.019Z"
             }
           ]
         }
