@@ -1,18 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\",
+  "WorkspaceRootPath": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\shared\\_layoutzacson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\shared\\_layoutzacson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\batidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\batidos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\batidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\batidos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\models\\batidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\batidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\controllers\\batidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\controllers\\batidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\controllers\\rutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\controllers\\rutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\controllers\\mirutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\controllers\\mirutinacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\greiv\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\models\\rutina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\shared\\_layoutzacson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\shared\\_layoutzacson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|c:\\users\\sebas\\source\\repos\\proyecto-final-digitatrianer\\digitaltrainer\\views\\rutina\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9817C399-686A-46C7-A69C-6FE1DBF01E57}|DigitalTrainer\\DigitalTrainer.csproj|solutionrelative:digitaltrainer\\views\\rutina\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +58,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
               "$type": "Bookmark",
@@ -46,10 +78,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
@@ -58,11 +86,115 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Batidos\\Create.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Batidos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Batidos\\Create.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\Batidos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T00:50:43.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Batidos\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Batidos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Batidos\\Index.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\Batidos\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T00:49:52.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BatidosController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Controllers\\BatidosController.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Controllers\\BatidosController.cs",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Controllers\\BatidosController.cs",
+              "RelativeToolTip": "DigitalTrainer\\Controllers\\BatidosController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T00:48:49.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Models\\Service.cs",
+              "RelativeToolTip": "DigitalTrainer\\Models\\Service.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wI0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T00:42:30.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MiRutinaController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Controllers\\MiRutinaController.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Controllers\\MiRutinaController.cs",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Controllers\\MiRutinaController.cs",
+              "RelativeToolTip": "DigitalTrainer\\Controllers\\MiRutinaController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T00:41:51.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Batidos.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Models\\Batidos.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Models\\Batidos.cs",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Models\\Batidos.cs",
+              "RelativeToolTip": "DigitalTrainer\\Models\\Batidos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T00:18:09.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Rutina\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Rutina\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Rutina\\Index.cshtml",
+              "RelativeToolTip": "DigitalTrainer\\Views\\Rutina\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T23:47:11.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RutinaController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Controllers\\RutinaController.cs",
+              "RelativeDocumentMoniker": "DigitalTrainer\\Controllers\\RutinaController.cs",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Controllers\\RutinaController.cs",
+              "RelativeToolTip": "DigitalTrainer\\Controllers\\RutinaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T23:32:52.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "_LayoutZacson.cshtml",
-              "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
               "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
-              "ToolTip": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
               "RelativeToolTip": "DigitalTrainer\\Views\\Shared\\_LayoutZacson.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -71,27 +203,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "DigitalTrainer\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-27T19:16:31.756Z"
+              "WhenOpened": "2025-07-27T19:16:31.756Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Rutina.cs",
-              "DocumentMoniker": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Models\\Rutina.cs",
+              "DocumentMoniker": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Models\\Rutina.cs",
               "RelativeDocumentMoniker": "DigitalTrainer\\Models\\Rutina.cs",
-              "ToolTip": "C:\\Users\\greiv\\Source\\Repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Models\\Rutina.cs",
+              "ToolTip": "C:\\Users\\Sebas\\source\\repos\\Proyecto-Final-DigitaTrianer\\DigitalTrainer\\Models\\Rutina.cs",
               "RelativeToolTip": "DigitalTrainer\\Models\\Rutina.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T19:10:41.019Z"
+              "WhenOpened": "2025-07-27T19:10:41.019Z",
+              "EditorCaption": ""
             }
           ]
         }

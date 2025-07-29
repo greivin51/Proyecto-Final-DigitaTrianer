@@ -1,24 +1,22 @@
-﻿@model IEnumerable<DigitalTrainer.Models.Rutina>
+﻿@model IEnumerable<DigitalTrainer.Models.Batidos>
 
 @{
-    Layout = "~/Views/Shared/_LayoutZacson.cshtml";
     ViewData["Title"] = "Index";
 }
 
-<h1>Rutinas</h1>
+<h1>Index</h1>
 
 <p>
-    <a asp-action="Create" style=" color: black">Agregar</a>
+    <a asp-action="Create">Agregar</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Musculo)
+                @Html.DisplayNameFor(model => model.Nombre)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
-
+                @Html.DisplayNameFor(model => model.Ingredientes)
             </th>
             <th></th>
         </tr>
@@ -27,14 +25,15 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Musculo)
+                @Html.DisplayFor(modelItem => item.Nombre)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
+                @Html.DisplayFor(modelItem => item.Ingredientes)
+               
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-               
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
             </td>
         </tr>

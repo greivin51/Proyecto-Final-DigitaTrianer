@@ -11,6 +11,8 @@ namespace DigitalTrainer.Models
 
         public DbSet<MiRutina> miRutina { get; set; }
 
+        public DbSet<Batidos> batidos { get; set; }
+
 
         public Service() : base("DigitalTrainer")
         { }
@@ -122,8 +124,22 @@ namespace DigitalTrainer.Models
             }
             else throw new Exception("Ese fabricante que intenta actualizar, no se encuentra registrado");
         }
-        
+
 
         #endregion
+        #region Metodos de Batidos
+
+        public void agregarBatidos(Batidos batidos)
+        {
+            this.batidos.Add(batidos);
+            SaveChanges();
+        }
+        public Array mostrarBatidos()
+        {
+            return this.batidos.ToArray();
+        }
+
+        #endregion
+
     }
 }
