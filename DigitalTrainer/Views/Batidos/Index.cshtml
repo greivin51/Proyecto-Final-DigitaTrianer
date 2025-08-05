@@ -4,18 +4,18 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 class="text-center my-4" style="color:#FCFCFC">Batidos</h1>
 
 <p>
-    <a asp-action="Create">Agregar</a>
+    <a asp-action="Create" style="color:#FCFCFC">Agregar</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th>
+            <th style="color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Nombre)
             </th>
-            <th>
+            <th style="color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Ingredientes)
             </th>
             <th></th>
@@ -40,3 +40,6 @@
 }
     </tbody>
 </table>
+<div class="main-content" style="max-width: 1200px; font-size: 1.2rem; margin: 0 auto;">
+    <!-- Aquí va tu contenido -->
+</div>

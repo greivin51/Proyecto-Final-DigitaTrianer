@@ -2,16 +2,29 @@
 @{
     Layout = "~/Views/Shared/_LayoutZacson.cshtml";
     ViewData["Title"] = "Login / Registro";
+    ViewData["OcultarMenu"] = true;
 }
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>Login | DigitalTrainer</title>
+    <title>Login | Digital Trainer</title>
     <link rel="stylesheet" href="~/zacson/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/zacson/css/style.css" />
     <link rel="stylesheet" href="~/zacson/css/responsive.css" />
+    <style>
+        .nav-tabs .nav-link {
+            background-color: #fff !important;
+            color: #000 !important;
+            border: 1px solid #ddd !important;
+        }
+        .nav-tabs .nav-link.active {
+            background-color: #fff !important;
+            color: #000 !important;
+            border-bottom: 2px solid #ff0000 !important; /* opcional: resalta la activa */
+        }
+    </style>
 </head>
 <body>
 
@@ -20,8 +33,10 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="section-title text-center mb-4">
-                        <h2>Bienvenido a DigitalTrainer</h2>
-                        <p>Inicia sesión o regístrate para continuar</p>
+                        <h2 class="text-center my-4" style="color:#FCFCFC">Bienvenido a Digital Trainer</h2>
+                        <p class="text-center my-4" style="color:#FCFCFC">
+                            Inicia sesión o regístrate para continuar
+                        </p>
                     </div>
 
                     <ul class="nav nav-tabs mb-4" id="authTab" role="tablist">
@@ -69,6 +84,10 @@
             </div>
         </div>
     </section>
+
+    <div class="main-content" style="max-width: 1200px; font-size: 1.2rem; margin: 0 auto;">
+        <!-- Aquí va tu contenido -->
+    </div>
 
     <script src="~/zacson/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
