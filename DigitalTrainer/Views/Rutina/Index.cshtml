@@ -7,19 +7,19 @@
 
 <div class="main-content" style="max-width: 1200px; font-size: 1.2rem; margin: 0 auto;">
 
-<h1 class="text-center my-4" style="color:#FCFCFC">Rutinas</h1>
+    <h1 class="text-center my-4" style=" color:white">Rutinas</h1>
 
 
 <p>
-    <a asp-action="Create" style=" color: #FCFCFC">Agregar</a>
+        <a asp-action="Create" style="font-size:20px; color: white">Agregar</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-                <th style="color:#FCFCFC">
+                <th style=" font-size:20px; color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Musculo)
             </th>
-                <th style="color:#FCFCFC">
+                <th style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Descripcion)
 
             </th>
@@ -29,13 +29,13 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+                    <td style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayFor(modelItem => item.Musculo)
             </td>
-            <td>
+                    <td class="col-sm-1" style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayFor(modelItem => item.Descripcion)
             </td>
-            <td>
+            <td style="font-size:20px; color:#FCFCFC"> 
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
                
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })

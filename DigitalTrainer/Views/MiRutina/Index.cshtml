@@ -10,24 +10,24 @@
 <h1 class="text-center my-4" style="color:#FCFCFC">Mi Rutina</h1>
 
 <p>
-    <a asp-action="Create">Agregar nueva rutina</a>
+     <a asp-action="Create" style="font-size:20px;">Agregar nueva rutina</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th style ="color:#FCFCFC">
+                <th style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Id)
             </th>
-            <th style="color:#FCFCFC">
+                <th style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Musculo)
             </th>
-            <th style="color:#FCFCFC">
+                <th style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Ejercicio)
             </th>
-            <th style="color:#FCFCFC">
+                <th style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Series)
             </th>
-            <th style="color:#FCFCFC">
+                <th style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Dia)
             </th>
             <th></th>
@@ -36,22 +36,22 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-                <td>
+            <td style="font-size:20px; color:#FCFCFC">
                     @Html.DisplayFor(modelItem => item.Id)
-                </td>
-            <td>
+            </td>
+                    <td style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayFor(modelItem => item.Musculo)
             </td>
-            <td>
+                    <td style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayFor(modelItem => item.Ejercicio)
             </td>
-            <td>
+                    <td style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayFor(modelItem => item.Series)
             </td>
-            <td>
+                    <td style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayFor(modelItem => item.Dia)
             </td>
-            <td>
+                    <td style="font-size:20px; color:#FCFCFC">
                 @Html.ActionLink("Edit", "Edit", new {  id=item.Id})
                 @Html.ActionLink("Delete", "Delete", new { id=item.Id})
             </td>

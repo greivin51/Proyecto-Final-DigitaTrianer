@@ -1,65 +1,87 @@
 ﻿@model DigitalTrainer.Models.DatosPersonales
-
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Create";  // Establece el título de la página
 }
 
-<h1>Create</h1>
-
-<h4>DatosPersonales</h4>
-<hr />
+<!-- Encabezado principal -->
+<h1>Create</h1>  <!-- Título principal -->
+<h4>DatosPersonales</h4>  <!-- Subtítulo indicando el modelo -->
+<hr />  <!-- Línea divisoria -->
+<!-- Contenedor principal del formulario -->
 <div class="row">
     <div class="col-md-4">
+        <!-- Columnas para el formulario (ancho de 4 columnas en pantallas medianas) -->
+        <!-- Formulario que enviará los datos a la acción Create del controlador -->
         <form asp-action="Create">
+            <!-- Resumen de validación (solo errores a nivel de modelo) -->
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            
+
+            <!-- Grupo para el campo Nombre -->
             <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input type="text" asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
+                <label asp-for="Nombre" class="control-label"></label>  <!-- Label generado automáticamente -->
+                <input type="text" asp-for="Nombre" class="form-control" />  <!-- Input para el nombre -->
+                <span asp-validation-for="Nombre" class="text-danger"></span>  <!-- Mensaje de validación -->
             </div>
+
+            <!-- Grupo para el campo Teléfono -->
             <div class="form-group">
                 <label asp-for="Telefono" class="control-label"></label>
-                <input type="number" asp-for="Telefono" class="form-control" />
+                <input type="number" asp-for="Telefono" class="form-control" />  <!-- Input numérico -->
                 <span asp-validation-for="Telefono" class="text-danger"></span>
             </div>
+
+            <!-- Grupo para el campo Correo Electrónico -->
             <div class="form-group">
                 <label asp-for="CorreoElectronico" class="control-label"></label>
-                <input type="email" asp-for="CorreoElectronico" class="form-control" />
+                <input type="email" asp-for="CorreoElectronico" class="form-control" />  <!-- Input de tipo email -->
                 <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
             </div>
+
+            <!-- Grupo para el campo Fecha de Nacimiento -->
             <div class="form-group">
                 <label asp-for="FechaNacimiento" class="control-label"></label>
-                <input type="date" asp-for="FechaNacimiento" class="form-control" />
+                <input type="date" asp-for="FechaNacimiento" class="form-control" />  <!-- Selector de fecha -->
                 <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
             </div>
+
+            <!-- Grupo para el campo Género (select con enum) -->
             <div class="form-group">
                 <label asp-for="Genero" class="control-label"></label>
                 <select asp-for="Genero" class="form-control" asp-items="Html.GetEnumSelectList<DigitalTrainer.Models.Genero>()"></select>
                 <span asp-validation-for="Genero" class="text-danger"></span>
             </div>
-           
+
+            <!-- Grupo para el campo Peso -->
             <div class="form-group">
                 <label asp-for="Peso" class="control-label"></label>
-                <input type="number" asp-for="Peso" class="form-control" />
+                <input type="number" asp-for="Peso" class="form-control" />  <!-- Input numérico para peso -->
                 <span asp-validation-for="Peso" class="text-danger"></span>
             </div>
+
+            <!-- Grupo para el campo Altura -->
             <div class="form-group">
                 <label asp-for="Altura" class="control-label"></label>
-                <input type="number" asp-for="Altura" class="form-control" />
+                <input type="number" asp-for="Altura" class="form-control" />  <!-- Input numérico para altura -->
                 <span asp-validation-for="Altura" class="text-danger"></span>
             </div>
 
-
+            <!-- Grupo para los botones de acción -->
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-                <input type="reset" value="Cancel" class="btn btn-secondary" />
+                <input type="submit" value="Create" class="btn btn-primary" />  <!-- Botón de envío -->
+                <input type="reset" value="Cancel" class="btn btn-secondary" />  <!-- Botón para resetear -->
             </div>
         </form>
     </div>
 </div>
 
+<!-- Enlace para volver al listado -->
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Back to List</a>  <!-- Enlace generado con Tag Helper -->
 </div>
 
+<!-- Sección para scripts de validación -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

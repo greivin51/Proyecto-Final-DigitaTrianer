@@ -1,5 +1,4 @@
 ﻿@model IEnumerable<DigitalTrainer.Models.DatosPersonales>
-
 @{
     Layout = "~/Views/Shared/_LayoutZacson.cshtml";
     ViewData["Title"] = "Index";
@@ -16,7 +15,7 @@
                 @for (int i = 0; i < usuarios.Count; i++)
                 {
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link @(i == 0 ? "active" : "")" id="tab-@i" data-bs-toggle="tab" data-bs-target="#user-@i" type="button" role="tab" aria-controls="user-@i" aria-selected="@(i == 0 ? "true" : "false")">
+                        <button style="font-size:15px;" class="nav-link @(i == 0 ? "active" : "")" id="tab-@i" data-bs-toggle="tab" data-bs-target="#user-@i" type="button" role="tab" aria-controls="user-@i" aria-selected="@(i == 0 ? "true" : "false")">
                             @usuarios[i].Nombre
                         </button>
                     </li>
@@ -28,33 +27,41 @@
                     var item = usuarios[i];
                     <div class="tab-pane fade @(i == 0 ? "show active" : "")" id="user-@i" role="tabpanel" aria-labelledby="tab-@i">
                         <dl class="row">
-                            <dt class="col-sm-4">Nombre</dt>
-                            <dd class="col-sm-8">@item.Nombre</dd>
+                            <dt style="font-size:15px; color:black" class="col-sm-4">Nombre</dt>
+                            <dd style="font-size:15px; color:black" class="col-sm-8">@item.Nombre</dd>
 
-                            <dt class="col-sm-4">Teléfono</dt>
-                            <dd class="col-sm-8">@item.Telefono</dd>
+                            <dt style="font-size:15px; color:black" class="col-sm-4">Teléfono</dt>
+                            <dd style="font-size:15px; color:black" class="col-sm-8">@item.Telefono</dd>
 
-                            <dt class="col-sm-4">Correo Electrónico</dt>
-                            <dd class="col-sm-8">@item.CorreoElectronico</dd>
+                            <dt style="font-size:15px; color:black" class="col-sm-4">Correo Electrónico</dt>
+                            <dd style="font-size:15px; color:black" class="col-sm-8">@item.CorreoElectronico</dd>
 
-                            <dt class="col-sm-4">Fecha Nacimiento</dt>
-                            <dd class="col-sm-8">@item.FechaNacimiento.ToString("dd/MM/yyyy")</dd>
+                            <dt style="font-size:15px; color:black" class="col-sm-4">Fecha Nacimiento</dt>
+                            <dd style="font-size:15px; color:black" class="col-sm-8">@item.FechaNacimiento.ToString("dd/MM/yyyy")</dd>
 
-                            <dt class="col-sm-4">Género</dt>
-                            <dd class="col-sm-8">@item.Genero.ToString()</dd>
+                            <dt style="font-size:15px; color:black" class="col-sm-4">Género</dt>
+                            <dd style="font-size:15px; color:black" class="col-sm-8">@item.Genero.ToString()</dd>
 
-                            <dt class="col-sm-4">Peso</dt>
-                            <dd class="col-sm-8">@($"{item.Peso} KG")</dd>
+                            <dt style="font-size:15px; color:black" class="col-sm-4">Peso</dt>
+                            <dd style="font-size:15px; color:black" class="col-sm-8">@($"{item.Peso} KG")</dd>
 
-                            <dt class="col-sm-4">Altura</dt>
-                            <dd class="col-sm-8">@($"{item.Altura} CM")</dd>
+                            <dt style="font-size:15px; color:black" class="col-sm-4">Altura</dt>
+                            <dd style="font-size:15px; color:black" class="col-sm-8">@($"{item.Altura} CM")</dd>
                         </dl>
                         <div class="text-end">
-                            @Html.ActionLink("Configurar Datos", "Edit", new { id = item.IdDatosPersonales }, new { @class = "btn btn-outline-primary btn-sm" })
-                            @Html.ActionLink("Delete", "Delete", new { id = item.IdDatosPersonales }, new { @class = "btn btn-outline-danger btn-sm" })
+                            @Html.ActionLink("Configurar Datos", "Edit", new { id = item.IdDatosPersonales }, new { @class = "btn btn-outline-primary btn-sm me-2" })
+
+                            <!-- Botón de Cerrar Sesión MEJORADO -->
+                            <form asp-controller="Auth" asp-action="Logout" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-outline-danger btn-sm"
+                                        onclick="return confirm('¿Estás seguro que deseas cerrar sesión?');">
+                                    <i style="font-size:15px; class=" fas fa-sign-out-alt me-1"></i> Cerrar Sesión
+                                </button>
+                            </form>
                         </div>
                     </div>
-            }
+                }
             </div>
         </div>
     }

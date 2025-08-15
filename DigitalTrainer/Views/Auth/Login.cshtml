@@ -1,18 +1,24 @@
 ﻿@model DigitalTrainer.Models.DatosPersonales
 @{
-    Layout = "~/Views/Shared/_LayoutZacson.cshtml";
-    ViewData["Title"] = "Login / Registro";
-    ViewData["OcultarMenu"] = true;
+    // Configuración del layout y metadatos de la página
+    Layout = "~/Views/Shared/_LayoutZacson.cshtml";  // Especifica el layout a utilizar
+    ViewData["Title"] = "Login / Registro";  // Título de la página
+    ViewData["OcultarMenu"] = true;  // Oculta el menú para esta vista
 }
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Metadatos básicos -->
     <meta charset="utf-8" />
-    <title>Login | Digital Trainer</title>
-    <link rel="stylesheet" href="~/zacson/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/zacson/css/style.css" />
-    <link rel="stylesheet" href="~/zacson/css/responsive.css" />
+    <title>Login | Digital Trainer</title>  <!-- Título en la pestaña del navegador -->
+    
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="~/zacson/css/bootstrap.min.css" />  <!-- Bootstrap base -->
+    <link rel="stylesheet" href="~/zacson/css/style.css" />  <!-- Estilos principales -->
+    <link rel="stylesheet" href="~/zacson/css/responsive.css" />  <!-- Estilos responsive -->
+    
+    <!-- Estilos personalizados para las pestañas -->
     <style>
         .nav-tabs .nav-link {
             background-color: #fff !important;
@@ -22,51 +28,58 @@
         .nav-tabs .nav-link.active {
             background-color: #fff !important;
             color: #000 !important;
-            border-bottom: 2px solid #ff0000 !important; /* opcional: resalta la activa */
+            border-bottom: 2px solid #ff0000 !important; /* Línea roja para la pestaña activa */
         }
     </style>
 </head>
 <body>
 
+    <!-- Sección principal de autenticación -->
     <section class="contact-section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
+                    <!-- Títulos de bienvenida -->
                     <div class="section-title text-center mb-4">
-                        <h2 class="text-center my-4" style="color:#FCFCFC">Bienvenido a Digital Trainer</h2>
-                        <p class="text-center my-4" style="color:#FCFCFC">
+                        <h1 class="text-center my-4" style=" color:#FCFCFC">Bienvenido a Digital Trainer</h1>
+                        <h2 class="text-center my-4" style="color:#FCFCFC">
                             Inicia sesión o regístrate para continuar
-                        </p>
+                        </h2>
                     </div>
 
+                    <!-- Pestañas para Login/Registro -->
                     <ul class="nav nav-tabs mb-4" id="authTab" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" id="login-tab" data-bs-toggle="tab" href="#login" role="tab" style="color:black">Iniciar Sesión</a>
+                            <a class="nav-link active" id="login-tab" data-bs-toggle="tab" href="#login" role="tab" style="font-size:13px; color:black">Iniciar Sesión</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="register-tab" data-bs-toggle="tab" href="#register" role="tab" style="color: black">Registrarse</a>
+                            <a class="nav-link" id="register-tab" data-bs-toggle="tab" href="#register" role="tab" style="font-size:13px; color: black">Registrarse</a>
                         </li>
                     </ul>
 
+                    <!-- Contenido de las pestañas -->
                     <div class="tab-content" id="authTabContent">
+                        <!-- Pestaña de Login -->
                         <div class="tab-pane fade show active" id="login" role="tabpanel">
                             <form asp-action="Login" method="post" class="contact-form">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" name="correoElectronico" placeholder="Correo electrónico" required />
+                                    <input style="font-size:13px;" type="email" class="form-control" name="correoElectronico" placeholder="Correo electrónico" required />
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" name="password" placeholder="Contraseña" required />
+                                    <input style="font-size:13px;" type="password" class="form-control" name="password" placeholder="Contraseña" required />
                                 </div>
                                 <button type="submit" class="btn btn-primary w-100">Ingresar</button>
                                 @if (ViewBag.Error != null)
                                 {
-                                    <div class="text-danger mt-2">@ViewBag.Error</div>
+                                    <div class="text-danger mt-2">@ViewBag.Error</div>  <!-- Muestra errores de login -->
                                 }
                             </form>
                         </div>
 
+                        <!-- Pestaña de Registro -->
                         <div class="tab-pane fade" id="register" role="tabpanel">
                             <form asp-action="Register" method="post" class="contact-form">
+                                <!-- Campos del formulario de registro -->
                                 <input asp-for="Nombre" class="form-control mb-2" placeholder="Nombre" required />
                                 <input asp-for="CorreoElectronico" class="form-control mb-2" placeholder="Correo electrónico" required />
                                 <input asp-for="Telefono" class="form-control mb-2" placeholder="Teléfono" required />
@@ -85,12 +98,14 @@
         </div>
     </section>
 
+    <!-- Contenedor para contenido adicional (actualmente vacío) -->
     <div class="main-content" style="max-width: 1200px; font-size: 1.2rem; margin: 0 auto;">
-        <!-- Aquí va tu contenido -->
+        <!-- Espacio reservado para contenido futuro -->
     </div>
 
-    <script src="~/zacson/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="~/zacson/js/main.js"></script>
+    <!-- Scripts JavaScript -->
+    <script src="~/zacson/js/vendor/jquery-1.12.4.min.js"></script>  <!-- jQuery -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>  <!-- Bootstrap JS -->
+    <script src="~/zacson/js/main.js"></script>  <!-- Scripts personalizados -->
 </body>
 </html>

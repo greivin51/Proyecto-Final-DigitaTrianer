@@ -4,18 +4,18 @@
     ViewData["Title"] = "Index";
 }
 
-<h1 class="text-center my-4" style="color:#FCFCFC">Batidos</h1>
+<h1 class="text-center my-4" style=" color:#FCFCFC">Batidos</h1>
 
 <p>
-    <a asp-action="Create" style="color:#FCFCFC">Agregar</a>
+    <a asp-action="Create" style="font-size:20px; color:#FCFCFC">Agregar</a>
 </p>
 <table class="table">
     <thead>
         <tr>
-            <th style="color:#FCFCFC">
+            <th style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Nombre)
             </th>
-            <th style="color:#FCFCFC">
+            <th style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayNameFor(model => model.Ingredientes)
             </th>
             <th></th>
@@ -24,14 +24,14 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
+                <td style ="font-size:20px; color:#FCFCFC">
                 @Html.DisplayFor(modelItem => item.Nombre)
             </td>
-            <td>
+                <td style="font-size:20px; color:#FCFCFC">
                 @Html.DisplayFor(modelItem => item.Ingredientes)
                
             </td>
-            <td>
+            <td >
                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })

@@ -1,54 +1,76 @@
 ﻿@model DigitalTrainer.Models.DatosPersonales
-
 @{
-   ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edit";  // Establece el título de la página como "Editar"
 }
 
+<!-- Encabezado principal con estilos personalizados -->
 <h1 style="color:#FCFCFC">Editar</h1>
- 
 <h4 style="color:#FCFCFC">DatosPersonales</h4>
 <hr />
+
+<!-- Contenedor principal del formulario -->
 <div class="row">
     <div class="col-md-4">
+        <!-- Formulario ocupa 4 columnas en pantallas medianas/grandes -->
         <form asp-action="Edit">
+            <!-- Formulario que enviará a la acción Edit -->
+            <!-- Campo oculto para el ID (necesario para la actualización) -->
             <input type="hidden" asp-for="IdDatosPersonales" />
+
+            <!-- Resumen de validación (solo errores a nivel de modelo) -->
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Grupo para el campo Nombre (solo lectura) -->
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" readonly />
+                <input asp-for="Nombre" class="form-control" readonly />  <!-- Campo no editable -->
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
+
+            <!-- Grupo para el campo Teléfono -->
             <div class="form-group">
                 <label asp-for="Telefono" class="control-label"></label>
-                <input asp-for="Telefono" class="form-control" />
+                <input asp-for="Telefono" class="form-control" />  <!-- Campo editable -->
                 <span asp-validation-for="Telefono" class="text-danger"></span>
             </div>
+
+            <!-- Grupo para el campo Correo Electrónico -->
             <div class="form-group">
                 <label asp-for="CorreoElectronico" class="control-label"></label>
                 <input asp-for="CorreoElectronico" class="form-control" />
                 <span asp-validation-for="CorreoElectronico" class="text-danger"></span>
             </div>
+
+            <!-- Grupo para el campo Fecha de Nacimiento (solo lectura) -->
             <div class="form-group">
                 <label asp-for="FechaNacimiento" class="control-label"></label>
-                <input asp-for="FechaNacimiento" class="form-control" type="date" value="@(Model.FechaNacimiento.ToString("yyyy-MM-dd"))" readonly />
+                <input asp-for="FechaNacimiento" class="form-control" type="date"
+                       value="@(Model.FechaNacimiento.ToString("yyyy-MM-dd"))" readonly />
                 <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
             </div>
 
+            <!-- Grupo para el campo Género (solo lectura con valor oculto para el formulario) -->
             <div class="form-group">
                 <label asp-for="Genero" class="control-label"></label>
-                <input class="form-control" value="@Model.Genero" readonly />
-                <input type="hidden" asp-for="Genero" />
+                <input class="form-control" value="@Model.Genero" readonly />  <!-- Visualización -->
+                <input type="hidden" asp-for="Genero" />  <!-- Valor real para el formulario -->
             </div>
+
+            <!-- Grupo para el campo Peso -->
             <div class="form-group">
                 <label asp-for="Peso" class="control-label"></label>
                 <input asp-for="Peso" class="form-control" />
                 <span asp-validation-for="Peso" class="text-danger"></span>
             </div>
+
+            <!-- Grupo para el campo Altura -->
             <div class="form-group">
                 <label asp-for="Altura" class="control-label"></label>
                 <input asp-for="Altura" class="form-control" />
                 <span asp-validation-for="Altura" class="text-danger"></span>
             </div>
+
+            <!-- Botón de envío del formulario -->
             <div class="form-group">
                 <input type="submit" value="Guardar" class="btn btn-primary" />
             </div>
@@ -56,6 +78,14 @@
     </div>
 </div>
 
+<!-- Enlace para volver al listado -->
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
+<!-- Sección para scripts de validación -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
